@@ -1,0 +1,7 @@
+# editor cache
+.*.swp
+*~
+
+# actual created lib and toolchain
+lib/
+toolchain/
