@@ -8,6 +8,7 @@ else
 fi
 
 $NDK_ROOT/build/tools/make-standalone-toolchain.sh \
+    --toolchain=arm-linux-androideabi-clang3.3 \
     --platform=android-23 \
     --arch=arm \
     --install-dir=$toolchain_dir
